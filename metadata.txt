@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=UA Coordinates Transformation
+qgisMinimumVersion=3.16
+description=Трансформація (перерахунок) координат вектороного шару через офіційне API Державної геодезичної мережі
+version=0.1
+author=Bohdan2505
+email=bogdan.zhuravel.00@gmail.com
+
+about=Плагін здійснює перерахунок векторного шару (координат) між системами координат СК-63, СК-42, УСК-2000 та похідними від них місцевих систем координат в межах території України через офіційне API Державної геодезичної мережі (ДГМ). УВАГА!!! Плагін лише формує запити до API ДГМ та перетворює результат у векторний шар. Весь перерахунок здійснюється на серверах API ДГМ. Автор плагіну - Bohdan2505. Автор головного алгоритму - Стьопа (brych92 on github, brych92@gmail.com). Плагін розроблено в рамках проекту "Відкриті інструменти просторового планування для України". Якщо ви бажаєте запропонувати покращення шукайте нас в JD Help чаті в Telegram: https://t.me/+eq7gtxjTXYBjZmUy
+
+tracker=https://github.com/Bohdan2505/UA-Coordinates-Transformation/issues
+repository=https://github.com/Bohdan2505/UA-Coordinates-Transformation
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,transform
+
+homepage=https://github.com/Bohdan2505/UA-Coordinates-Transformation
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
